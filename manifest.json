@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "PKG-024",
+  "slug": "blackarmor-chat",
+  "name": "sovereign-blackarmor-chat",
+  "domain": "Enterprise Web Chat & Real-Time Sync",
+  "version": "1.0.0",
+  "status": "PRODUCTION_READY",
+  "entrypoint": "src/core.py",
+  "cli_command": "sovereign-blackarmor-chat",
+  "microservice_port": 8804,
+  "n8n_webhook_path": "blackarmor-chat-trigger",
+  "n8n_workflow": "n8n/workflow.json",
+  "test_suite": "tests/test_solution.py",
+  "author": "Russell Alan Powers",
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sovereign-blackarmor-chat"
+version = "1.0.0"
+description = "Secure, self-hosted web collaboration and chat interface with CI/CD deployment automation. Features document collaboration integration, real-time message broadcasting, and encrypted database persistence."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Russell Alan Powers", email = "russell@sovereignbizbox.io"}
+]
+keywords = ["sovereign", "enterprise web chat & real-time sync", "microservice", "n8n", "automation"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries"
+]
+dependencies = []
+
+[project.scripts]
+sovereign-blackarmor-chat = "src.cli:main"
